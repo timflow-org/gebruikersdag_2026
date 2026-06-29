@@ -4,4 +4,4 @@ version = "0.1.0"
 description = "Repository voor Timflow gebruikersdag 2026"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["timflow[lmfit]", "jupyterlab", "ipykernel"]
+dependencies = ["timflow[lmfit]", "jupyterlab", "ipykernel", "pandas<3.0.4"]
